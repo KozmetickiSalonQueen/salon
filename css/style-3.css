@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aqua;
+}
+
+.container {
+    
+    max-width: 400px;
+    margin-top: 8em;
+    margin-left: 10vw;
+    background-color: aquamarine;
+    
+    
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    
+    width: 100%;
+    
+    
+}
+
+.red {
+    display: flex;
+}
+
+.kol-1 {
+    flex: 50%;
+    
+}
+
+.kol-2 {
+    flex: 50%;
+    margin-left: 10px;
+}
+
+
+input[type=submit] {
+    width: 100%;
+    margin-top: 10px
+}
+
+
+textarea {
+    width: 100%;
+    padding: 10px;
+}
+
+
+form {
+    padding: 15px;
+}
+
+
+
+
+
+@media only screen and (max-width: 350px) {
+    .red {
+        display: block;
+        
+    }
+    
+    .kol-2 {
+        margin-left: 0;
+    }
+    
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
