@@ -592,7 +592,7 @@ iframe:hover {
 
     align-items: center;
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .adresa .adr-podaci {
@@ -987,7 +987,7 @@ footer a {
 
         align-items: center;
 
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
 
     .mapa iframe {
