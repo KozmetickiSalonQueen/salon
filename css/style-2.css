@@ -6,12 +6,16 @@
     box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
 /*    height: 200vh;*/
     font-family: 'Montserrat', sans-serif;
     color: #8d614e;
     background-color: #f2f2f2;
-    
+
 }
 
 
@@ -26,8 +30,8 @@ header {
     background-size: cover;
     background-position: center;
 */
-    
-    
+
+
 }
 
 /*
@@ -49,7 +53,7 @@ header .slika {
     justify-content: space-around;
 /*    align-items: center;*/
 /*    margin-top: 30px;*/
-    
+
     position: fixed;
     top: 0;
     left: 0;
@@ -58,7 +62,7 @@ header .slika {
     transition: 0.6s;
     padding: 40px 0px;
     z-index: 100000;
-    
+
     animation: 1s ease-out 0s 1 slideInFromUp;
 }
 
@@ -120,9 +124,9 @@ nav img {
 /* Slideshow container */
 .slider-container {
 /*    width: 100%;*/
-    
+
 /*    height: 100vh;*/
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -131,7 +135,7 @@ nav img {
 .slider {
     width: 100%;
 /*    height: 100vh;*/
-    
+
     overflow: hidden;
 }
 
@@ -139,27 +143,27 @@ nav img {
     display: flex;
     width: 400%;
 /*    height: 100vh;*/
-    
+
 }
 
 .slides input{
     display: none;
-    
+
 }
 
 .slide {
 /*    width: 30%;*/
-    
+
     width: 100vw;
-    
+
     transition: 3s;
 }
 
 .slide img {
     width: 100%;
-    
+
     height: 100vh;
-    
+
     object-fit: cover;
     object-position: center;
 }
@@ -171,7 +175,7 @@ nav img {
     display: flex;
     justify-content: center;
     margin-top: -10vh;
-    
+
     display: none;
 }
 
@@ -209,7 +213,7 @@ nav img {
     width: 100%;
     justify-content: center;
     margin-top: 90vh;
-    
+
     display: none;
 }
 
@@ -262,7 +266,7 @@ nav img {
     text-transform: uppercase;
     font-weight: 500;
     letter-spacing: 2px;
-    
+
 }
 #o-nama .text p {
     letter-spacing: 2px;
@@ -282,7 +286,7 @@ nav img {
 
 /*** TRETMANI ***/
 #tretmani {
-    
+
 }
 
 .tretmani-container {
@@ -359,7 +363,7 @@ nav img {
 .gallery1 img {
     width: 100%;
     padding: 5px;
-    
+
 }
 
 .gallery1 img:hover {
@@ -395,11 +399,11 @@ nav img {
     transition: 0.1s;
     border-bottom: 1px solid #8d614e73;
   }
-  
+
    .active, .accordion:hover {
-    background-color: #8d614e42; 
-  } 
-  
+    background-color: #8d614e42;
+  }
+
   .panel {
     padding: 0 0px;
     display: none;
@@ -416,16 +420,16 @@ nav img {
     /* font-family: arial, sans-serif; */
     border-collapse: collapse;
     width: 100%;
-    
+
   }
-  
+
   td, th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 20px;
     font-size: .8em;
   }
-  
+
   tr:nth-child(even) {
     background-color: #f7f7f7;
   }
@@ -465,12 +469,12 @@ nav img {
 }
 
 .tabela {
-    
+
 }
 
 .pointer {
     color: #8d614e;
-    
+
     margin-right: 10px;
 }
 
@@ -485,7 +489,7 @@ nav img {
     background-size: cover;
     background-position: center;
 /*    position: absolute;*/
-    
+
 }
 
 .termin-container {
@@ -494,18 +498,18 @@ nav img {
     max-width: 350px;
     margin-top: 8em;
     margin-left: 10vw;
-    
+
     position: absolute;
 }
 
 input {
     padding: 10px;
     margin-bottom: 10px;
-    
+
     width: 100%;
-    
-    
-    
+
+
+
 }
 
 .red-termin {
@@ -514,7 +518,7 @@ input {
 
 .kol-1 {
     flex: 50%;
-    
+
 }
 
 .kol-2 {
@@ -571,29 +575,29 @@ iframe:hover {
 
 .adresa {
     max-width: 450px;
-    
+
     background-color: #fff;
 
 /*    position: absolute;*/
-    
+
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
-   
-    
-    
+
+
+
     padding: 20px;
-    
-    
-    
+
+
+
     align-items: center;
-    
+
     border: 1px solid red;
 }
 
 .adresa .adr-podaci {
     display: flex;
-    
+
 }
 
 .adresa h3 {
@@ -611,7 +615,7 @@ footer {
     justify-content: space-around;
     width: 100%;
     text-align: center;
-    
+
 }
 
 footer a {
@@ -627,16 +631,16 @@ footer a {
 }
 
 .fbox4 p {
-    
+
     color: #c19887;
     padding: 10px;
-    
-    
+
+
 }
 
 .fbox1, .fbox2, .fbox3 {
         border-right: 1px solid #c19887;
-        
+
     }
 
 
@@ -681,7 +685,7 @@ footer a {
   100% {
     opacity: 1;
   }
-    
+
 }
 
 
@@ -691,7 +695,7 @@ footer a {
 	header, header ul{
 		display: flex;
 	}
-    
+
 /*MOBILE MENU*/
     .nav-menu {
         position: fixed;
@@ -725,12 +729,12 @@ footer a {
         display: block;
         cursor: pointer;
     }
-    
+
     .bar {
         background: #8d614e;
     }
-    
-  
+
+
     .hamburger.active .bar:nth-child(2) {
         opacity: 0;
     }
@@ -744,15 +748,15 @@ footer a {
         -webkit-transform: translateY(-8px) rotate(-45deg);
         transform: translateY(-8px) rotate(-45deg);
     }
-    
 
-    
-    
-    
-    
+
+
+
+
+
 
 /* Slideshow container */
-    
+
     .slider-container {
 /*        height: 100vh;*/
         display: flex;
@@ -774,7 +778,7 @@ footer a {
         overflow: hidden;
         margin: 0;
         padding: 0;
-        
+
     }
 
     .slides input{
@@ -785,7 +789,7 @@ footer a {
         width: 30%;
         transition: 3s;
     }
-    
+
 
     .slide img {
         width: 100%;
@@ -799,7 +803,7 @@ footer a {
 /*        display: none;*/
 
     }
-    
+
     #radio1:checked ~ .first {
     margin-left: 0;
 }
@@ -817,8 +821,8 @@ footer a {
         margin-top: 45vh;
 /*        display: none;*/
     }
-    
-    
+
+
 /***O NAMA***/
     #o-nama .o-nama-container {
 /*
@@ -835,33 +839,33 @@ footer a {
         margin: 0px;
         padding: 60px;
     }
-    
-    
-    
+
+
+
     .gallery1-container {
-        
+
     }
-    
+
     .red-gallery {
         flex: 100%;
 /*        flex-direction: column;*/
     }
-  
-    
+
+
     #o-nama h2 {
         text-align: center;
 /*        padding-top: 20px;*/
     }
-    
-    
+
+
 /*
     .red-termin {
         flex: 100%;
     }
-    
+
 */
-    
-    
+
+
 /*** TRETMANI ***/
     #tretmani {
 
@@ -877,25 +881,25 @@ footer a {
     .kartica {
         flex: 100%;
     }
-    
-    
+
+
 /*** CENOVNIK ***/
-    
+
     .tabela {
         padding: 20px;
     }
-    
 
-    
-    
+
+
+
 /*** ZAKAZI TERMIN***/
     .termin-container {
-        background-color: #fff;   
+        background-color: #fff;
         width: 80%;
-        
-/*      
-        
-        
+
+/*
+
+
 /*
         margin-left:  auto;
         margin-right: auto;
@@ -906,56 +910,56 @@ footer a {
         top: rem;
         left: rem;
 */
-        
-        
+
+
 /*
         margin-left: auto;
         margin-right: auto;
 */
     }
-    
+
 /*
     .ime-prezime, .datum-vreme, .mail-broj {
         flex-direction: column;
-        
+
     }
 */
-    
+
     .termin-container input {
 /*        width: 90%;*/
         margin-left:  auto;
         margin-right: auto;
     }
-    
+
     .napomena {
         width: 90%;
         margin: auto;
     }
-    
-    
-    
+
+
+
 /*
     form {
         margin-left: auto;
         margin-right: auto;
     }
 */
-    
+
     .red-termin {
         display: block;
-        
-        
+
+
     }
-    
+
     .kol-1 {
 /*        flex: 100%;*/
     }
-    
+
     .kol-2 {
         margin-left: 0;
 /*        flex: 100%;*/
     }
-    
+
     .termin-container {
 /*
         margin-left: auto;
@@ -963,11 +967,11 @@ footer a {
 */
 
     }
-    
-    
 
-    
-    
+
+
+
+
 /*** KONTAKT ***/
     .adresa {
         max-width: 80%;
@@ -985,7 +989,7 @@ footer a {
 
         border: 1px solid red;
     }
-    
+
     .mapa iframe {
         width: 100%;
         height: 60vh;
@@ -994,23 +998,23 @@ footer a {
 /*        position: absolute;*/
         filter: grayscale(100%);
     }
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
 /*** FOOTER ***/
     footer {
         flex-direction: column;
     }
-    
+
     .fbox1, .fbox2, .fbox3, .fbox4 {
         border-bottom: 1px solid #c19887;
-        
+
     }
-    
-    
+
+
 }
 
 
@@ -1027,13 +1031,13 @@ footer a {
 
 
 @media only screen and (min-width: 601px) and (max-width: 762px) {
-    
+
     .red-gallery {
         flex: 50%;
     }
-    
-    
-    
-    
-    
+
+
+
+
+
 }
